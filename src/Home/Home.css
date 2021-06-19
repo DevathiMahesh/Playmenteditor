@@ -1,0 +1,40 @@
+button{
+   cursor:pointer
+}
+@media only screen and (min-width:1000px)
+{
+    .outputpane{
+        position:fixed;
+        top:25%;
+        right:5%;
+        border: 1px solid black;
+        height:70vh;
+        width:40%;
+        margin-top: -1%;
+
+    }
+    .acepane{
+        position:fixed;
+        height:70vh;
+        width:45%;
+        margin:4%
+    }
+}
+@media only screen and (max-width:990px)
+{
+    .outputpane{
+        position:fixed;
+        top:85vh;
+        border: 1px solid black;
+        height:70vh;
+        width:80%;
+        margin:10%;
+        overflow-y:scroll
+    }
+    .acepane{
+        position:fixed;
+        height:70vh;
+        width:80%;
+        margin:10%
+    }
+}
